@@ -34,6 +34,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_sendmessage_msg" />
+        app:layout_constraintTop_toBottomOf="@+id/edittext_sendmessage_msg"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/button_sendmessage_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="385dp" />
 
 </android.support.constraint.ConstraintLayout>
